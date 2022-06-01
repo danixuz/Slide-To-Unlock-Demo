@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33532E8B2845EFBF00B46244 /* MorbPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33532E8A2845EFBF00B46244 /* MorbPhoneApp.swift */; };
 		33532E8D2845EFBF00B46244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33532E8C2845EFBF00B46244 /* ContentView.swift */; };
 		33532E8F2845EFBF00B46244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33532E8E2845EFBF00B46244 /* Assets.xcassets */; };
-		33532E922845EFBF00B46244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33532E912845EFBF00B46244 /* Preview Assets.xcassets */; };
-		33532E9C2845EFBF00B46244 /* MorbPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33532E9B2845EFBF00B46244 /* MorbPhoneTests.swift */; };
-		33532EA62845EFBF00B46244 /* MorbPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33532EA52845EFBF00B46244 /* MorbPhoneUITests.swift */; };
-		33532EA82845EFBF00B46244 /* MorbPhoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33532EA72845EFBF00B46244 /* MorbPhoneUITestsLaunchTests.swift */; };
+		33532EBC2845F13700B46244 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33532EBB2845F13700B46244 /* HomeScreen.swift */; };
+		33532EBE2845F49900B46244 /* LockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33532EBD2845F49900B46244 /* LockScreen.swift */; };
+		336F005B28462B63003D929A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F005A28462B63003D929A /* Home.swift */; };
+		336F005E28462C01003D929A /* MorbPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F005D28462C01003D929A /* MorbPhoneApp.swift */; };
+		336F00702846421F003D929A /* slideToUnlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 336F006F2846421F003D929A /* slideToUnlock.mp3 */; };
+		336F00712846421F003D929A /* slideToUnlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 336F006F2846421F003D929A /* slideToUnlock.mp3 */; };
+		336F00722846421F003D929A /* slideToUnlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 336F006F2846421F003D929A /* slideToUnlock.mp3 */; };
+		33F4A4952846064700F2FF77 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F4A4942846064700F2FF77 /* ViewModel.swift */; };
+		33F4A49E28460F7A00F2FF77 /* augh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33F4A49D28460F7A00F2FF77 /* augh.mp3 */; };
+		33F4A49F28460F7A00F2FF77 /* augh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33F4A49D28460F7A00F2FF77 /* augh.mp3 */; };
+		33F4A4A028460F7A00F2FF77 /* augh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33F4A49D28460F7A00F2FF77 /* augh.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +41,17 @@
 
 /* Begin PBXFileReference section */
 		33532E872845EFBF00B46244 /* MorbPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorbPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33532E8A2845EFBF00B46244 /* MorbPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorbPhoneApp.swift; sourceTree = "<group>"; };
 		33532E8C2845EFBF00B46244 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33532E8E2845EFBF00B46244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		33532E912845EFBF00B46244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33532E972845EFBF00B46244 /* MorbPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorbPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33532E9B2845EFBF00B46244 /* MorbPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorbPhoneTests.swift; sourceTree = "<group>"; };
 		33532EA12845EFBF00B46244 /* MorbPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorbPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33532EA52845EFBF00B46244 /* MorbPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorbPhoneUITests.swift; sourceTree = "<group>"; };
-		33532EA72845EFBF00B46244 /* MorbPhoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorbPhoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33532EBB2845F13700B46244 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		33532EBD2845F49900B46244 /* LockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreen.swift; sourceTree = "<group>"; };
+		336F005A28462B63003D929A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		336F005D28462C01003D929A /* MorbPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorbPhoneApp.swift; sourceTree = "<group>"; };
+		336F006F2846421F003D929A /* slideToUnlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slideToUnlock.mp3; sourceTree = "<group>"; };
+		33F4A4942846064700F2FF77 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		33F4A49D28460F7A00F2FF77 /* augh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = augh.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				33532E892845EFBF00B46244 /* MorbPhone */,
-				33532E9A2845EFBF00B46244 /* MorbPhoneTests */,
-				33532EA42845EFBF00B46244 /* MorbPhoneUITests */,
 				33532E882845EFBF00B46244 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,37 +100,41 @@
 		33532E892845EFBF00B46244 /* MorbPhone */ = {
 			isa = PBXGroup;
 			children = (
-				33532E8A2845EFBF00B46244 /* MorbPhoneApp.swift */,
+				336F005D28462C01003D929A /* MorbPhoneApp.swift */,
+				336F005C28462B6B003D929A /* Models */,
+				33F4A49628460A3400F2FF77 /* Sounds */,
+				33532EBA2845F12B00B46244 /* Views */,
 				33532E8C2845EFBF00B46244 /* ContentView.swift */,
 				33532E8E2845EFBF00B46244 /* Assets.xcassets */,
-				33532E902845EFBF00B46244 /* Preview Content */,
+				33F4A4942846064700F2FF77 /* ViewModel.swift */,
 			);
 			path = MorbPhone;
 			sourceTree = "<group>";
 		};
-		33532E902845EFBF00B46244 /* Preview Content */ = {
+		33532EBA2845F12B00B46244 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				33532E912845EFBF00B46244 /* Preview Assets.xcassets */,
+				33532EBB2845F13700B46244 /* HomeScreen.swift */,
+				33532EBD2845F49900B46244 /* LockScreen.swift */,
 			);
-			path = "Preview Content";
+			path = Views;
 			sourceTree = "<group>";
 		};
-		33532E9A2845EFBF00B46244 /* MorbPhoneTests */ = {
+		336F005C28462B6B003D929A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				33532E9B2845EFBF00B46244 /* MorbPhoneTests.swift */,
+				336F005A28462B63003D929A /* Home.swift */,
 			);
-			path = MorbPhoneTests;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		33532EA42845EFBF00B46244 /* MorbPhoneUITests */ = {
+		33F4A49628460A3400F2FF77 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				33532EA52845EFBF00B46244 /* MorbPhoneUITests.swift */,
-				33532EA72845EFBF00B46244 /* MorbPhoneUITestsLaunchTests.swift */,
+				336F006F2846421F003D929A /* slideToUnlock.mp3 */,
+				33F4A49D28460F7A00F2FF77 /* augh.mp3 */,
 			);
-			path = MorbPhoneUITests;
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33532E922845EFBF00B46244 /* Preview Assets.xcassets in Resources */,
 				33532E8F2845EFBF00B46244 /* Assets.xcassets in Resources */,
+				33F4A49E28460F7A00F2FF77 /* augh.mp3 in Resources */,
+				336F00702846421F003D929A /* slideToUnlock.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F4A49F28460F7A00F2FF77 /* augh.mp3 in Resources */,
+				336F00712846421F003D929A /* slideToUnlock.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +260,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F4A4A028460F7A00F2FF77 /* augh.mp3 in Resources */,
+				336F00722846421F003D929A /* slideToUnlock.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F4A4952846064700F2FF77 /* ViewModel.swift in Sources */,
+				33532EBC2845F13700B46244 /* HomeScreen.swift in Sources */,
+				33532EBE2845F49900B46244 /* LockScreen.swift in Sources */,
 				33532E8D2845EFBF00B46244 /* ContentView.swift in Sources */,
-				33532E8B2845EFBF00B46244 /* MorbPhoneApp.swift in Sources */,
+				336F005E28462C01003D929A /* MorbPhoneApp.swift in Sources */,
+				336F005B28462B63003D929A /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33532E9C2845EFBF00B46244 /* MorbPhoneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33532EA62845EFBF00B46244 /* MorbPhoneUITests.swift in Sources */,
-				33532EA82845EFBF00B46244 /* MorbPhoneUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +432,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MorbPhone/Preview Content\"";
 				DEVELOPMENT_TEAM = 6DWJWLSP44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -431,7 +446,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = daniel.MorbPhone;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MorbPhone;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +460,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MorbPhone/Preview Content\"";
 				DEVELOPMENT_TEAM = 6DWJWLSP44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -460,7 +474,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = daniel.MorbPhone;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MorbPhone;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

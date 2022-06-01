@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct MorbPhoneApp: App {
+struct MorbPhoneApp: SwiftUI.App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(ViewModel())
         }
     }
 }
